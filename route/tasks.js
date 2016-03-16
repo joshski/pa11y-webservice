@@ -88,7 +88,7 @@ module.exports = function (app) {
 						username: Hapi.types.String().allow(''),
 						password: Hapi.types.String().allow(''),
 						standard: Hapi.types.String().required().valid([
-							'Section508', 'WCAG2A', 'WCAG2AA', 'WCAG2AAA'
+							'Section508', 'WCAG2A', 'WCAG2AA', 'WCAG2AAA', 'BBCA11y'
 						]),
 						ignore: Hapi.types.Array()
 					}
