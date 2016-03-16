@@ -28,7 +28,7 @@
 		"freeport": "~1.0",
 		"hapi": "~1.9",
 		"mongodb": "~2.0",
-		"pa11y": "~3.0",
+		"pa11y": "git://github.com/joshski/pa11y.git#bbc-a11y",
 		"underscore": "~1.8"
 	},
 	"devDependencies": {
